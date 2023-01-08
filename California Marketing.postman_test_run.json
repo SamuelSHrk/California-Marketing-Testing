@@ -1,0 +1,191 @@
+{
+	"id": "18a8c067-38c6-4574-81ca-052c7a9ab027",
+	"name": "California Marketing",
+	"timestamp": "2023-01-08T00:21:17.165Z",
+	"collection_id": "24932769-b9696599-8f2b-4f0d-a114-36f247500119",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "9b85a9f7-3937-44c8-9222-871b4a4bafa0",
+			"name": "New Request",
+			"url": "https://static.parastorage.com/services/auto-frontend-modules/1.486.0/webworker/manifest-worker.min.json",
+			"time": 39,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0b389341-1a46-40ac-a7c6-d903bceba1d0",
+			"name": "https://static.parastorage.com/services/forms-viewer/6f293c58ae7381d911e2e4b6439248a06ebbc432ca43d0a9676e5176/assets/locales/messages_en.json",
+			"url": "https://static.parastorage.com/services/forms-viewer/6f293c58ae7381d911e2e4b6439248a06ebbc432ca43d0a9676e5176/assets/locales/messages_en.json",
+			"time": 38,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "62c545cc-634d-4723-9741-d7b776d6acba",
+			"name": "https://static.wixstatic.com/shapes/2c36dc006cb94853a49daee7e821f642.svg",
+			"url": "https://static.wixstatic.com/shapes/2c36dc006cb94853a49daee7e821f642.svg",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d3704cf4-7b9d-4926-b30b-98f78d6da48d",
+			"name": "https://qasvus.wixsite.com/_api/wixstores-graphql-server/graphql",
+			"url": "https://qasvus.wixsite.com/_api/wixstores-graphql-server/graphql",
+			"time": 164,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successful POST request": true,
+				"Content-Type is present": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				164
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successful POST request": true,
+					"Content-Type is present": false
+				}
+			]
+		},
+		{
+			"id": "571178ea-23b7-4e55-a067-9c98a3f1cae7",
+			"name": "https://static.parastorage.com/services/wixstores-client-cart-icon/1.1659.0/assets/locale/cartIcon/cartIcon_en.json\n",
+			"url": "https://static.parastorage.com/services/wixstores-client-cart-icon/1.1659.0/assets/locale/cartIcon/cartIcon_en.json%0A",
+			"time": 36,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Cart Icon": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Cart Icon": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				36
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Cart Icon": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 299,
+	"collection": {
+		"requests": [
+			{
+				"id": "9b85a9f7-3937-44c8-9222-871b4a4bafa0",
+				"method": "GET"
+			},
+			{
+				"id": "0b389341-1a46-40ac-a7c6-d903bceba1d0",
+				"method": "GET"
+			},
+			{
+				"id": "62c545cc-634d-4723-9741-d7b776d6acba",
+				"method": "GET"
+			},
+			{
+				"id": "d3704cf4-7b9d-4926-b30b-98f78d6da48d",
+				"method": "POST"
+			},
+			{
+				"id": "571178ea-23b7-4e55-a067-9c98a3f1cae7",
+				"method": "POST"
+			}
+		]
+	}
+}
